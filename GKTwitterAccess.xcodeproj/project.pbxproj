@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1253A24192B49DC00A3A018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1253A23192B49DC00A3A018 /* Foundation.framework */; };
+		C1253A26192B49DC00A3A018 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1253A25192B49DC00A3A018 /* CoreGraphics.framework */; };
+		C1253A28192B49DC00A3A018 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1253A27192B49DC00A3A018 /* UIKit.framework */; };
+		C1253A2E192B49DC00A3A018 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1253A2C192B49DC00A3A018 /* InfoPlist.strings */; };
+		C1253A30192B49DC00A3A018 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1253A2F192B49DC00A3A018 /* main.m */; };
+		C1253A34192B49DC00A3A018 /* GKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1253A33192B49DC00A3A018 /* GKAppDelegate.m */; };
+		C1253A37192B49DC00A3A018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1253A35192B49DC00A3A018 /* Main.storyboard */; };
+		C1253A3A192B49DC00A3A018 /* GKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1253A39192B49DC00A3A018 /* GKViewController.m */; };
+		C1253A3C192B49DC00A3A018 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1253A3B192B49DC00A3A018 /* Images.xcassets */; };
+		C1253A43192B49DC00A3A018 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1253A42192B49DC00A3A018 /* XCTest.framework */; };
+		C1253A44192B49DC00A3A018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1253A23192B49DC00A3A018 /* Foundation.framework */; };
+		C1253A45192B49DC00A3A018 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1253A27192B49DC00A3A018 /* UIKit.framework */; };
+		C1253A4D192B49DC00A3A018 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1253A4B192B49DC00A3A018 /* InfoPlist.strings */; };
+		C1253A4F192B49DC00A3A018 /* GKTwitterAccessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1253A4E192B49DC00A3A018 /* GKTwitterAccessTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1253A46192B49DC00A3A018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1253A18192B49DC00A3A018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1253A1F192B49DC00A3A018;
+			remoteInfo = GKTwitterAccess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1253A20192B49DC00A3A018 /* GKTwitterAccess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKTwitterAccess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1253A23192B49DC00A3A018 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1253A25192B49DC00A3A018 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C1253A27192B49DC00A3A018 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C1253A2B192B49DC00A3A018 /* GKTwitterAccess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GKTwitterAccess-Info.plist"; sourceTree = "<group>"; };
+		C1253A2D192B49DC00A3A018 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1253A2F192B49DC00A3A018 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1253A31192B49DC00A3A018 /* GKTwitterAccess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GKTwitterAccess-Prefix.pch"; sourceTree = "<group>"; };
+		C1253A32192B49DC00A3A018 /* GKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKAppDelegate.h; sourceTree = "<group>"; };
+		C1253A33192B49DC00A3A018 /* GKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKAppDelegate.m; sourceTree = "<group>"; };
+		C1253A36192B49DC00A3A018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1253A38192B49DC00A3A018 /* GKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GKViewController.h; sourceTree = "<group>"; };
+		C1253A39192B49DC00A3A018 /* GKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKViewController.m; sourceTree = "<group>"; };
+		C1253A3B192B49DC00A3A018 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C1253A41192B49DC00A3A018 /* GKTwitterAccessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKTwitterAccessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1253A42192B49DC00A3A018 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C1253A4A192B49DC00A3A018 /* GKTwitterAccessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GKTwitterAccessTests-Info.plist"; sourceTree = "<group>"; };
+		C1253A4C192B49DC00A3A018 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1253A4E192B49DC00A3A018 /* GKTwitterAccessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKTwitterAccessTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1253A1D192B49DC00A3A018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1253A26192B49DC00A3A018 /* CoreGraphics.framework in Frameworks */,
+				C1253A28192B49DC00A3A018 /* UIKit.framework in Frameworks */,
+				C1253A24192B49DC00A3A018 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1253A3E192B49DC00A3A018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1253A43192B49DC00A3A018 /* XCTest.framework in Frameworks */,
+				C1253A45192B49DC00A3A018 /* UIKit.framework in Frameworks */,
+				C1253A44192B49DC00A3A018 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1253A17192B49DC00A3A018 = {
+			isa = PBXGroup;
+			children = (
+				C1253A29192B49DC00A3A018 /* GKTwitterAccess */,
+				C1253A48192B49DC00A3A018 /* GKTwitterAccessTests */,
+				C1253A22192B49DC00A3A018 /* Frameworks */,
+				C1253A21192B49DC00A3A018 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1253A21192B49DC00A3A018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1253A20192B49DC00A3A018 /* GKTwitterAccess.app */,
+				C1253A41192B49DC00A3A018 /* GKTwitterAccessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1253A22192B49DC00A3A018 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1253A23192B49DC00A3A018 /* Foundation.framework */,
+				C1253A25192B49DC00A3A018 /* CoreGraphics.framework */,
+				C1253A27192B49DC00A3A018 /* UIKit.framework */,
+				C1253A42192B49DC00A3A018 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1253A29192B49DC00A3A018 /* GKTwitterAccess */ = {
+			isa = PBXGroup;
+			children = (
+				C1253A32192B49DC00A3A018 /* GKAppDelegate.h */,
+				C1253A33192B49DC00A3A018 /* GKAppDelegate.m */,
+				C1253A35192B49DC00A3A018 /* Main.storyboard */,
+				C1253A38192B49DC00A3A018 /* GKViewController.h */,
+				C1253A39192B49DC00A3A018 /* GKViewController.m */,
+				C1253A3B192B49DC00A3A018 /* Images.xcassets */,
+				C1253A2A192B49DC00A3A018 /* Supporting Files */,
+			);
+			path = GKTwitterAccess;
+			sourceTree = "<group>";
+		};
+		C1253A2A192B49DC00A3A018 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1253A2B192B49DC00A3A018 /* GKTwitterAccess-Info.plist */,
+				C1253A2C192B49DC00A3A018 /* InfoPlist.strings */,
+				C1253A2F192B49DC00A3A018 /* main.m */,
+				C1253A31192B49DC00A3A018 /* GKTwitterAccess-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1253A48192B49DC00A3A018 /* GKTwitterAccessTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1253A4E192B49DC00A3A018 /* GKTwitterAccessTests.m */,
+				C1253A49192B49DC00A3A018 /* Supporting Files */,
+			);
+			path = GKTwitterAccessTests;
+			sourceTree = "<group>";
+		};
+		C1253A49192B49DC00A3A018 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1253A4A192B49DC00A3A018 /* GKTwitterAccessTests-Info.plist */,
+				C1253A4B192B49DC00A3A018 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1253A1F192B49DC00A3A018 /* GKTwitterAccess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1253A52192B49DC00A3A018 /* Build configuration list for PBXNativeTarget "GKTwitterAccess" */;
+			buildPhases = (
+				C1253A1C192B49DC00A3A018 /* Sources */,
+				C1253A1D192B49DC00A3A018 /* Frameworks */,
+				C1253A1E192B49DC00A3A018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKTwitterAccess;
+			productName = GKTwitterAccess;
+			productReference = C1253A20192B49DC00A3A018 /* GKTwitterAccess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1253A40192B49DC00A3A018 /* GKTwitterAccessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1253A55192B49DC00A3A018 /* Build configuration list for PBXNativeTarget "GKTwitterAccessTests" */;
+			buildPhases = (
+				C1253A3D192B49DC00A3A018 /* Sources */,
+				C1253A3E192B49DC00A3A018 /* Frameworks */,
+				C1253A3F192B49DC00A3A018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1253A47192B49DC00A3A018 /* PBXTargetDependency */,
+			);
+			name = GKTwitterAccessTests;
+			productName = GKTwitterAccessTests;
+			productReference = C1253A41192B49DC00A3A018 /* GKTwitterAccessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1253A18192B49DC00A3A018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Aurora Apps";
+				TargetAttributes = {
+					C1253A40192B49DC00A3A018 = {
+						TestTargetID = C1253A1F192B49DC00A3A018;
+					};
+				};
+			};
+			buildConfigurationList = C1253A1B192B49DC00A3A018 /* Build configuration list for PBXProject "GKTwitterAccess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1253A17192B49DC00A3A018;
+			productRefGroup = C1253A21192B49DC00A3A018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1253A1F192B49DC00A3A018 /* GKTwitterAccess */,
+				C1253A40192B49DC00A3A018 /* GKTwitterAccessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1253A1E192B49DC00A3A018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1253A3C192B49DC00A3A018 /* Images.xcassets in Resources */,
+				C1253A2E192B49DC00A3A018 /* InfoPlist.strings in Resources */,
+				C1253A37192B49DC00A3A018 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1253A3F192B49DC00A3A018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1253A4D192B49DC00A3A018 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1253A1C192B49DC00A3A018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1253A34192B49DC00A3A018 /* GKAppDelegate.m in Sources */,
+				C1253A3A192B49DC00A3A018 /* GKViewController.m in Sources */,
+				C1253A30192B49DC00A3A018 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1253A3D192B49DC00A3A018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1253A4F192B49DC00A3A018 /* GKTwitterAccessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1253A47192B49DC00A3A018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1253A1F192B49DC00A3A018 /* GKTwitterAccess */;
+			targetProxy = C1253A46192B49DC00A3A018 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1253A2C192B49DC00A3A018 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1253A2D192B49DC00A3A018 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C1253A35192B49DC00A3A018 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1253A36192B49DC00A3A018 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1253A4B192B49DC00A3A018 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1253A4C192B49DC00A3A018 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1253A50192B49DC00A3A018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1253A51192B49DC00A3A018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1253A53192B49DC00A3A018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GKTwitterAccess/GKTwitterAccess-Prefix.pch";
+				INFOPLIST_FILE = "GKTwitterAccess/GKTwitterAccess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C1253A54192B49DC00A3A018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GKTwitterAccess/GKTwitterAccess-Prefix.pch";
+				INFOPLIST_FILE = "GKTwitterAccess/GKTwitterAccess-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C1253A56192B49DC00A3A018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GKTwitterAccess.app/GKTwitterAccess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GKTwitterAccess/GKTwitterAccess-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GKTwitterAccessTests/GKTwitterAccessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C1253A57192B49DC00A3A018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GKTwitterAccess.app/GKTwitterAccess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GKTwitterAccess/GKTwitterAccess-Prefix.pch";
+				INFOPLIST_FILE = "GKTwitterAccessTests/GKTwitterAccessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1253A1B192B49DC00A3A018 /* Build configuration list for PBXProject "GKTwitterAccess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1253A50192B49DC00A3A018 /* Debug */,
+				C1253A51192B49DC00A3A018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1253A52192B49DC00A3A018 /* Build configuration list for PBXNativeTarget "GKTwitterAccess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1253A53192B49DC00A3A018 /* Debug */,
+				C1253A54192B49DC00A3A018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1253A55192B49DC00A3A018 /* Build configuration list for PBXNativeTarget "GKTwitterAccessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1253A56192B49DC00A3A018 /* Debug */,
+				C1253A57192B49DC00A3A018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1253A18192B49DC00A3A018 /* Project object */;
+}
