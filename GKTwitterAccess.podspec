@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "GKTwitterAccess"
   s.version      = "0.0.1"
-  s.summary      = "Tries to access Twitter accounts and shows an ActionSheet if the user has more than one"
+  s.summary      = "Tries to access Twitter accounts and shows an UIActionSheet if the user has more than one"
 
   s.description  = <<-DESC
                    This addition tries to access the Twitter accounts a user has defined
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "http://EXAMPLE/GKTwitterAccess"
-  #s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.screenshots  = "https://raw.githubusercontent.com/gekitz/GKTwitterAccess/master/Files/TwitterAccessSample.gif"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
