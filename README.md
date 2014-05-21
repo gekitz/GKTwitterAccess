@@ -6,6 +6,8 @@ in the Settings.app. If the user has multiple accounts, an `UIActionSheet`
 is presented and the user can pick one account, otherwise if only one account
 is defined, said account is returned in the completion block.
 
+![Sample](https://raw.githubusercontent.com/gekitz/GKTwitterAccess/master/Files/TwitterAccessSample.gif)
+
 You simply have to call following method
 ```objc
 @interface UIViewController (TwitterAccess)
@@ -21,6 +23,7 @@ If the user presses cancel while the `UIActionSheet` is shown, we return
 
  Finally if any other error occurs during the authorization process, we return
  the error we get from the framework.
+ 
 
 Possible Scenarios
 =======
