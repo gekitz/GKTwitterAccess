@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface GKViewController : UIViewController
-
+- (IBAction)accessTwitterAccounts:(id)sender;
 @end

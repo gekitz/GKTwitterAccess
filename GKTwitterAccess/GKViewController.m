@@ -6,7 +6,10 @@
 //  Copyright (c) 2014 Aurora Apps. All rights reserved.
 //
 
+@import Accounts;
+
 #import "GKViewController.h"
+#import "UIViewController+TwitterAccess.h"
 
 @interface GKViewController ()
 
@@ -14,16 +17,11 @@
 
 @implementation GKViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+- (IBAction)accessTwitterAccounts:(id)sender {
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [self authorizeTwitterAccount:^(BOOL granted, NSError *error, ACAccount *account) {
+        NSLog(@"Granted %d Error %@ Account %@", granted, error, account.username);
+    }];
 }
 
 @end

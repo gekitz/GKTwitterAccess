@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4788FAED596E4955BC67AE9B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CD1DE5AB4E4FE9B52846A3 /* libPods.a */; };
 		C1253A24192B49DC00A3A018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1253A23192B49DC00A3A018 /* Foundation.framework */; };
 		C1253A26192B49DC00A3A018 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1253A25192B49DC00A3A018 /* CoreGraphics.framework */; };
 		C1253A28192B49DC00A3A018 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1253A27192B49DC00A3A018 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		C1253A45192B49DC00A3A018 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1253A27192B49DC00A3A018 /* UIKit.framework */; };
 		C1253A4D192B49DC00A3A018 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1253A4B192B49DC00A3A018 /* InfoPlist.strings */; };
 		C1253A4F192B49DC00A3A018 /* GKTwitterAccessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1253A4E192B49DC00A3A018 /* GKTwitterAccessTests.m */; };
+		C1253A5B192B4C3B00A3A018 /* UIViewController+TwitterAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = C1253A5A192B4C3B00A3A018 /* UIViewController+TwitterAccess.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57CD1DE5AB4E4FE9B52846A3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1253A20192B49DC00A3A018 /* GKTwitterAccess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKTwitterAccess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1253A23192B49DC00A3A018 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C1253A25192B49DC00A3A018 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +56,9 @@
 		C1253A4A192B49DC00A3A018 /* GKTwitterAccessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GKTwitterAccessTests-Info.plist"; sourceTree = "<group>"; };
 		C1253A4C192B49DC00A3A018 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1253A4E192B49DC00A3A018 /* GKTwitterAccessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKTwitterAccessTests.m; sourceTree = "<group>"; };
+		C1253A59192B4C3B00A3A018 /* UIViewController+TwitterAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TwitterAccess.h"; sourceTree = "<group>"; };
+		C1253A5A192B4C3B00A3A018 /* UIViewController+TwitterAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TwitterAccess.m"; sourceTree = "<group>"; };
+		E305E3B82AC646B992059420 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 				C1253A26192B49DC00A3A018 /* CoreGraphics.framework in Frameworks */,
 				C1253A28192B49DC00A3A018 /* UIKit.framework in Frameworks */,
 				C1253A24192B49DC00A3A018 /* Foundation.framework in Frameworks */,
+				4788FAED596E4955BC67AE9B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,10 +89,12 @@
 		C1253A17192B49DC00A3A018 = {
 			isa = PBXGroup;
 			children = (
+				C1253A58192B4C3B00A3A018 /* Classes */,
 				C1253A29192B49DC00A3A018 /* GKTwitterAccess */,
 				C1253A48192B49DC00A3A018 /* GKTwitterAccessTests */,
 				C1253A22192B49DC00A3A018 /* Frameworks */,
 				C1253A21192B49DC00A3A018 /* Products */,
+				E305E3B82AC646B992059420 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +114,7 @@
 				C1253A25192B49DC00A3A018 /* CoreGraphics.framework */,
 				C1253A27192B49DC00A3A018 /* UIKit.framework */,
 				C1253A42192B49DC00A3A018 /* XCTest.framework */,
+				57CD1DE5AB4E4FE9B52846A3 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,6 +162,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C1253A58192B4C3B00A3A018 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C1253A59192B4C3B00A3A018 /* UIViewController+TwitterAccess.h */,
+				C1253A5A192B4C3B00A3A018 /* UIViewController+TwitterAccess.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1253A52192B49DC00A3A018 /* Build configuration list for PBXNativeTarget "GKTwitterAccess" */;
 			buildPhases = (
+				2AACB3BA35EF4758A4C0811C /* Check Pods Manifest.lock */,
 				C1253A1C192B49DC00A3A018 /* Sources */,
 				C1253A1D192B49DC00A3A018 /* Frameworks */,
 				C1253A1E192B49DC00A3A018 /* Resources */,
+				17B7427779C2485AA865E012 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,11 +266,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17B7427779C2485AA865E012 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AACB3BA35EF4758A4C0811C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1253A1C192B49DC00A3A018 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1253A5B192B4C3B00A3A018 /* UIViewController+TwitterAccess.m in Sources */,
 				C1253A34192B49DC00A3A018 /* GKAppDelegate.m in Sources */,
 				C1253A3A192B49DC00A3A018 /* GKViewController.m in Sources */,
 				C1253A30192B49DC00A3A018 /* main.m in Sources */,
@@ -374,6 +429,7 @@
 		};
 		C1253A53192B49DC00A3A018 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E305E3B82AC646B992059420 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +443,7 @@
 		};
 		C1253A54192B49DC00A3A018 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E305E3B82AC646B992059420 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +514,7 @@
 				C1253A54192B49DC00A3A018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1253A55192B49DC00A3A018 /* Build configuration list for PBXNativeTarget "GKTwitterAccessTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +523,7 @@
 				C1253A57192B49DC00A3A018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
