@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                    is defined, said account is returned in the completion block.
                    DESC
 
-  s.homepage     = "http://EXAMPLE/GKTwitterAccess"
+  s.homepage     = "https://github.com/gekitz/GKTwitterAccess"
   s.screenshots  = "https://raw.githubusercontent.com/gekitz/GKTwitterAccess/master/Files/TwitterAccessSample.gif"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
